@@ -11,6 +11,9 @@
   <div>
     <MainDc></MainDc>
   </div>
+  <div>
+    <Footer></Footer>
+  </div>
 </template>
 
 <script>
@@ -19,6 +22,7 @@ import Header from './components/Header.vue';
 import ContentHere from './components/ContentHere.vue';
 import Merch from './components/Merch.vue';
 import MainDc from './components/MainDc.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   name:'App',
@@ -27,6 +31,7 @@ export default {
     ContentHere,
     Merch,
     MainDc,
+    Footer,
   },
   data () {
     
