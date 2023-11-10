@@ -1,27 +1,41 @@
 <template>
     <div class="contenthere  d-flex align-items-center ">
         <div class="container">
-            <h2 class="text-white text">&lt;--Content goes Here--&gt;</h2>
+            <div class="row gy-2">
+                <div class="col-12 col-md-2 col-lg-2" v-for="(comic, index) in comicsData" :key="index">
+                    <Cardcomponent :thumb="comic.thumb" :series="comic.series" />
+                </div>
+
+            </div>
         </div>
      
     </div>
 </template>
 
 <script>
+import jsonData from '../data/dc-comics.json';
+import Cardcomponent from './Cardcomponent.vue';
 export default {
     name:'ContentHere',
+    components: {
+        Cardcomponent
+    },
     data() {
         
 
-        return {}
-    }
+        return {
+
+            comicsData: jsonData
+        }
+    },
+    
 }
 </script>
 
 <style lang="scss" scoped>
 
 .contenthere{
-    height: 150px;
+    
     background-color: rgb(36, 33, 33);
 }
 
