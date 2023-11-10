@@ -1,6 +1,6 @@
 <template>
     <div class="maindc">
-      <div class="container d-flex pb-5  ">
+      <div class="container d-flex pb-5">
          <div>
             <h2 class="fs-6 text-white mt-5 ">DC COMICS</h2>
             <ul class="list-unstyled">
@@ -45,6 +45,9 @@
                
             </ul>
          </div>
+         <div class="imglog">
+            <img src="../assets/images/dc-logo-bg.png" alt="">
+         </div>
       </div>
      
     </div>
@@ -66,9 +69,17 @@ export default {
     
     background-image: url(../assets/images/footer-bg.jpg);
     background-size: cover;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
 }
 ul{
     color: grey;
     
+}
+.imglog{
+    position: absolute;
+    top: -70px;
+    right: 70px;
 }
 </style>
