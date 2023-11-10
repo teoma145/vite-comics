@@ -1,23 +1,23 @@
 <template>
     <div class="merch">
-      <div class="container d-flex  h-100 ">
-        <div class="d-flex align-items-center pt-2 pb-2 ms-5 ps-3 ">
+      <div class="container d-flex  h-100 flex-wrap ">
+        <div class="d-flex align-items-center pe-5 pt-2 pb-2 ms-5  col-12 col-md-1">
             <img src="../assets/images/buy-comics-digital-comics.png" alt="">
              <div class="text-white ms-1  ">DIGITAL COMIC</div>
         </div>
-        <div class="d-flex align-items-center pt-2 pb-2 ms-5 ps-3 ">
+        <div class="d-flex align-items-center pt-2 pb-2 ms-5  col-12 col-md-2 ">
             <img src="../assets/images/buy-comics-merchandise.png" alt="">
              <div class="text-white ms-1 ">DC MERCHANDISE</div>
         </div>
-        <div class="d-flex align-items-center pt-2 pb-2 ms-5 ps-3  ">
+        <div class="d-flex align-items-center pt-2 pb-2 ms-5   col-12 col-md-2">
             <img src="../assets/images/buy-comics-subscriptions.png" alt="">
              <div class="text-white ms-1  ">SUBSCRIPTION</div>
         </div>
-        <div class="d-flex align-items-center pt-2 pb-2 ms-5 ps-3  ">
+        <div class="d-flex align-items-center pt-2 pb-2 ms-5   col-12 col-md-2">
             <img src="../assets/images/buy-comics-shop-locator.png" alt="">
              <div class="text-white ms-1 ">COMIC SHOP LOCATOR</div>
         </div>
-        <div class="d-flex align-items-center pt-2 pb-2 ms-5 ps-3  ">
+        <div class="d-flex align-items-center pt-2 pb-2 ms-5   col-12 col-md-2">
             <img src="../assets/images/buy-dc-power-visa.svg" alt="">
              <div class="text-white ms-1 ">DC POWE VISA</div>
         </div>
@@ -40,9 +40,10 @@ export default {
 
 <style lang="scss" scoped>
 .merch{
-    height: 150px;
-    background-color:rgb(57, 123, 221);
     
+    background-color:rgb(57, 123, 221);
+    overflow-x: hidden;
+    padding: 20px 0 20px 0;
 }
 img{
     width: 50px;

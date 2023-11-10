@@ -1,16 +1,19 @@
 <template>
-    <div class="footer ">
-       <div class="container d-flex justify-content-between ">
+    <div class="footer pb-4">
+       <div class="container d-flex justify-content-between flex-wrap">
           <div class="mt-5 ">
             <a href="" class="buttonfoot text-decoration-none ">SIGN UP NOW</a>
           </div>
-          <div class="d-flex">
+          <div class="d-flex flex-wrap">
             <h2 class="mt-5">FOLLOW US</h2>
-            <img src="../assets/images/footer-facebook.png" alt="">
-            <img src="../assets/images/footer-facebook.png" alt="">
-            <img src="../assets/images/footer-facebook.png" alt="">
-            <img src="../assets/images/footer-facebook.png" alt="">
-            <img src="../assets/images/footer-facebook.png" alt="">
+            <div>
+                <img src="../assets/images/footer-facebook.png" alt="">
+                <img src="../assets/images/footer-facebook.png" alt="">
+                <img src="../assets/images/footer-facebook.png" alt="">
+                <img src="../assets/images/footer-facebook.png" alt="">
+                <img src="../assets/images/footer-facebook.png" alt="">
+            </div>
+            
           </div>
           
         </div>
@@ -31,7 +34,7 @@ export default {
 <style lang="scss" scoped>
 .footer{
     background-color: rgb(48, 48, 48);
-    height: 120px;
+    
 }
 .buttonfoot{
     border: 1px solid rgb(57, 123, 221);

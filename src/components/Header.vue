@@ -1,9 +1,9 @@
 <template>
     <div>
-     <div class="container d-flex justify-content-between pt-4 mb-4 " >
+     <div class="container d-flex justify-content-between pt-4 mb-4" >
         <img src="../assets/images/dc-logo.png" alt="">
         <div>
-            <ul class="d-flex list-unstyled mt-4">
+            <ul class="d-flex list-unstyled mt-4 flex-wrap">
                 <li v-for="menuitems in arraymenu">{{menuitems}}</li>
                 
             </ul>
@@ -36,7 +36,7 @@ export default {
 
 <style lang="scss" scoped>
 .container{
-    height: 100px;
+    
     font-family: 'Open Sans Condensed'
 }
 img{

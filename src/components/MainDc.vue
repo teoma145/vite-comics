@@ -1,7 +1,7 @@
 <template>
     <div class="maindc">
       <div class="container d-flex pb-5">
-         <div>
+         <div class="col-3 col-md-1">
             <h2 class="fs-6 text-white mt-5 ">DC COMICS</h2>
             <ul class="list-unstyled">
                 <li>Characters</li>
@@ -12,7 +12,7 @@
                 <li>Video</li>
                 <li>News</li>
             </ul>
-            <div>
+            <div class="col-3 col-md-1">
                 <h2 class="fs-6 text-white mt-3">DC COMICS</h2>
                 <ul class="list-unstyled">
                 <li>Shop Dc</li>
@@ -20,7 +20,7 @@
             </ul>
             </div>
          </div>
-         <div>
+         <div class="col-3 col-md-1">
             <h2 class="fs-6 text-white mt-5 ms-5">DC</h2>
             <ul class="list-unstyled ms-5 ">
                 <li>Characters</li>
@@ -35,9 +35,9 @@
                 <li>News</li>
             </ul>
          </div>
-         <div>
-            <h2 class="fs-6 text-white mt-5 ms-5">SITES</h2>
-            <ul class="list-unstyled ms-5 ">
+         <div class="col-3 col-md-1">
+            <h2 class="fs-6 text-white mt-5 ms-5 ps-3">SITES</h2>
+            <ul class="list-unstyled ms-5 ps-3">
                 <li>Characters</li>
                 <li>Comics</li>
                 <li>Movies</li>
