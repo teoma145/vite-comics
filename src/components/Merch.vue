@@ -1,5 +1,5 @@
 <template>
-    <div class="merch ">
+    <div class="merch">
       <div class="container d-flex  h-100 ">
         <div class="d-flex align-items-center pt-2 pb-2 ms-5 ps-3 ">
             <img src="../assets/images/buy-comics-digital-comics.png" alt="">
@@ -42,6 +42,7 @@ export default {
 .merch{
     height: 150px;
     background-color:rgb(57, 123, 221);
+    
 }
 img{
     width: 50px;

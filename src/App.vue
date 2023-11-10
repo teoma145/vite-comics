@@ -3,6 +3,9 @@
    <Header></Header>
   </div>
   <div>
+    <Headerimage></Headerimage>
+  </div>
+  <div>
     <ContentHere></ContentHere>
   </div>
   <div>
@@ -23,6 +26,7 @@ import ContentHere from './components/ContentHere.vue';
 import Merch from './components/Merch.vue';
 import MainDc from './components/MainDc.vue';
 import Footer from './components/Footer.vue';
+import Headerimage from './components/Headerimage.vue';
 
 export default {
   name:'App',
@@ -32,6 +36,7 @@ export default {
     Merch,
     MainDc,
     Footer,
+    Headerimage,
   },
   data () {
     
